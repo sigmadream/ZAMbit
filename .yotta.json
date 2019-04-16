@@ -1,0 +1,6 @@
+{
+  "build": {
+    "target": "microbit,*",
+    "targetSetExplicitly": true
+  }
+}
