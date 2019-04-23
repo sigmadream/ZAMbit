@@ -38,19 +38,4 @@ Installed PXT/microbit. To start server run:
 To build a package, run:
     pxt build
 
-$ pxt:install
-Using target microbit with build engine yotta
-  target: v1.4.5 /Users/sd/Works/Projects/pxt-zambit/node_modules/pxt-microbit
-  pxt-core: v5.9.13 /Users/sd/Works/Projects/pxt-zambit/node_modules/pxt-microbit/node_modules/pxt-core
-skipping download of local pkg: file:.
-
-$ make all
-pxt deploy
-Using target microbit with build engine yotta
-  target: v1.4.5 /Users/sd/Works/Projects/pxt-zambit/node_modules/pxt-microbit
-  pxt-core: v5.9.13 /Users/sd/Works/Projects/pxt-zambit/node_modules/pxt-microbit/node_modules/pxt-core
-building /Users/sd/Works/Projects/pxt-zambit
-package built; written to binary.hex
-cannot find any drives to deploy to
-
 ```
