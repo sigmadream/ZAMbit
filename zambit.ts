@@ -1,11 +1,10 @@
 //% weight=100 color=#000000 icon="\uf06e" block="Zam:bit"
 namespace zambit {
     /**
-     * Setup zam:bit,
-     * must be called before using the display
-     */
-    export function setup(): void {
+    * 유명한 피보나치 수를 계산합니다!
+    */
+    //% block
+    export function fib(value: number): number {
+        return value <= 1 ? value : fib(value - 1) + fib(value - 2);
     }
 }
-
-zambit.setup();
